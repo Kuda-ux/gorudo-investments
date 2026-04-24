@@ -39,13 +39,13 @@ export default function Navbar() {
       <div className="container-xl container-px">
         <nav className="flex h-20 items-center justify-between">
           <Link href="/" className="flex items-center gap-3">
-            <span className="relative inline-flex h-11 w-11 items-center justify-center overflow-hidden rounded-full ring-1 ring-brand-900/10 bg-white shadow-soft">
+            <span className="relative inline-flex h-12 w-12 items-center justify-center overflow-hidden rounded-2xl ring-1 ring-brand-900/10 bg-white shadow-soft">
               <Image
                 src="/logo.jpeg"
-                alt="Gorudo Investments logo"
-                width={44}
-                height={44}
-                className="h-11 w-11 object-cover"
+                alt="Gorudo Investments — Harvesting Prosperity"
+                width={96}
+                height={96}
+                className="h-11 w-11 object-contain"
                 priority
               />
             </span>
@@ -54,7 +54,7 @@ export default function Navbar() {
                 Gorudo Investments
               </span>
               <span className="text-[10px] uppercase tracking-[0.22em] text-brand-700">
-                Zimbabwe · Since Inception
+                Harvesting Prosperity
               </span>
             </div>
           </Link>
@@ -106,13 +106,15 @@ export default function Navbar() {
         >
           <div className="flex items-center justify-between px-6 py-5">
             <div className="flex items-center gap-2">
-              <Image
-                src="/logo.jpeg"
-                alt="Gorudo"
-                width={36}
-                height={36}
-                className="h-9 w-9 rounded-full object-cover ring-1 ring-brand-900/10"
-              />
+              <span className="inline-flex h-10 w-10 items-center justify-center overflow-hidden rounded-xl bg-white ring-1 ring-brand-900/10">
+                <Image
+                  src="/logo.jpeg"
+                  alt="Gorudo"
+                  width={80}
+                  height={80}
+                  className="h-9 w-9 object-contain"
+                />
+              </span>
               <span className="font-display text-base font-semibold">
                 Gorudo
               </span>

@@ -62,8 +62,8 @@ export default function Products() {
           <div className="reveal relative lg:col-span-5">
             <div className="relative aspect-[4/5] overflow-hidden rounded-3xl shadow-ring">
               <Image
-                src="/images/gorudo-8.jpeg"
-                alt="Fresh produce from Gorudo Investments"
+                src="/images/gorudo-10.jpeg"
+                alt="Greenhouse-grown tomatoes from Gorudo Investments"
                 fill
                 sizes="(min-width:1024px) 35vw, 90vw"
                 className="object-cover"

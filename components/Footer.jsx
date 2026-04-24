@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Mail, MapPin } from "lucide-react";
+import { Mail, MapPin, Phone } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -9,13 +9,13 @@ export default function Footer() {
         <div className="grid gap-12 lg:grid-cols-12">
           <div className="lg:col-span-5">
             <div className="flex items-center gap-3">
-              <span className="inline-flex h-12 w-12 items-center justify-center overflow-hidden rounded-full bg-white ring-1 ring-white/10">
+              <span className="inline-flex h-14 w-14 items-center justify-center overflow-hidden rounded-2xl bg-white ring-1 ring-white/10 p-1">
                 <Image
                   src="/logo.jpeg"
-                  alt="Gorudo Investments"
-                  width={48}
-                  height={48}
-                  className="h-12 w-12 object-cover"
+                  alt="Gorudo Investments — Harvesting Prosperity"
+                  width={112}
+                  height={112}
+                  className="h-12 w-12 object-contain"
                 />
               </span>
               <div>
@@ -23,7 +23,7 @@ export default function Footer() {
                   Gorudo Investments
                 </p>
                 <p className="text-[11px] uppercase tracking-[0.2em] text-brand-200">
-                  Zimbabwe
+                  Harvesting Prosperity · Zimbabwe
                 </p>
               </div>
             </div>
@@ -35,7 +35,11 @@ export default function Footer() {
             <div className="mt-6 space-y-2 text-sm">
               <p className="flex items-center gap-2">
                 <MapPin className="h-4 w-4 text-brand-300" />
-                Harare &middot; Marondera, Zimbabwe
+                Plot 1 Mudakurwa, Chihota, Marondera
+              </p>
+              <p className="flex items-center gap-2">
+                <Phone className="h-4 w-4 text-brand-300" />
+                <a href="tel:+263242127233" className="hover:text-white">+263 242 127233</a>
               </p>
               <p className="flex items-center gap-2">
                 <Mail className="h-4 w-4 text-brand-300" />
@@ -102,8 +106,8 @@ export default function Footer() {
 
         <div className="mt-14 flex flex-col items-start justify-between gap-4 border-t border-white/10 pt-8 text-xs text-brand-100/60 sm:flex-row sm:items-center">
           <p>
-            © {new Date().getFullYear()} Gorudo Investments. All rights
-            reserved.
+            © {new Date().getFullYear()} Gorudo Investments (Private) Limited.
+            All rights reserved.
           </p>
           <p>
             gorudoinvestments.co.zw &middot; Proudly Zimbabwean

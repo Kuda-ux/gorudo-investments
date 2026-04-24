@@ -6,27 +6,27 @@ const divisions = [
     name: "Shashi Maputi",
     tag: "Food & Snack Line",
     icon: Utensils,
-    image: "/images/gorudo-10.jpeg",
+    image: "/images/gorudo-9.jpeg",
     description:
-      "A carefully curated food product line delivering consistent quality, familiar taste, and dependable supply to retailers, vendors and institutional buyers across Zimbabwe.",
+      "Our signature roasted maize snack — packaged, stocked and distributed at scale to retailers, vendors and institutional buyers across Zimbabwe.",
     points: ["Retail & wholesale ready", "Consistent quality control", "Zimbabwean taste, elevated"],
   },
   {
     name: "Shashi Ice",
     tag: "Ice Supply & Distribution",
     icon: Snowflake,
-    image: "/images/gorudo-11.jpeg",
+    image: "/images/gorudo-6.jpeg",
     description:
-      "A specialised ice production and distribution unit supporting hospitality, events, cold-chain partners and commercial clients with reliable, hygienic supply.",
-    points: ["Hygienic production", "Reliable distribution", "Commercial-grade capacity"],
+      "Shashi Ice Cubes — 2.5kg bagged ice produced in Marondera to commercial standards, supporting hospitality, events, cold-chain partners and trade clients.",
+    points: ["Produced in Marondera", "Keep frozen below −10°C", "Commercial-grade capacity"],
   },
   {
     name: "Gorudo Poultry & Piggery",
     tag: "Livestock & Agribusiness",
     icon: Drumstick,
-    image: "/images/gorudo-4.jpeg",
+    image: "/images/gorudo-5.jpeg",
     description:
-      "Our livestock division delivers premium poultry and piggery outputs managed under professional husbandry standards — supplying consistent volumes to trade partners.",
+      "Our livestock division delivers poultry, piggery and rabbit outputs under disciplined husbandry standards — supplying consistent volumes to trade partners.",
     points: ["Professional husbandry", "Volume consistency", "Trade & institutional supply"],
   },
 ];

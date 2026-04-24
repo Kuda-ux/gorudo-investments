@@ -79,10 +79,13 @@ export default function Contact() {
                 </span>
                 <div>
                   <p className="font-display text-base font-semibold">
-                    Operating Hubs
+                    Head Office
                   </p>
                   <p className="text-sm text-ink/70">
-                    Harare &middot; Marondera, Zimbabwe
+                    Plot 1 Mudakurwa, Chihota, Marondera, Zimbabwe
+                  </p>
+                  <p className="mt-1 text-sm text-ink/70">
+                    Operations across Harare &amp; Marondera
                   </p>
                 </div>
               </li>
@@ -93,7 +96,7 @@ export default function Contact() {
                 <div>
                   <p className="font-display text-base font-semibold">Phone</p>
                   <p className="text-sm text-ink/70">
-                    Available on request &middot; share your number below
+                    <a href="tel:+263242127233" className="hover:text-brand-700">+263 242 127233</a>
                   </p>
                 </div>
               </li>

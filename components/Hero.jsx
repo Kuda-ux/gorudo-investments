@@ -33,7 +33,7 @@ export default function Hero() {
                 <span className="absolute inline-flex h-full w-full animate-pulse-ring rounded-full bg-brand-500" />
                 <span className="relative inline-flex h-2 w-2 rounded-full bg-brand-500" />
               </span>
-              Zimbabwean Agribusiness · Supply · Procurement
+              Harvesting Prosperity · Zimbabwe
             </span>
             <h1 className="h-display mt-5 text-5xl leading-[1.02] sm:text-6xl lg:text-[80px]">
               Fresh produce.

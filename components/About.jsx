@@ -34,12 +34,13 @@ export default function About() {
               <span className="italic"> <span className="text-gradient">serious growth.</span></span>
             </h2>
             <p className="mt-6 text-lg leading-relaxed text-ink/70">
-              Gorudo Investments is a diversified Zimbabwean enterprise with
-              interests spanning fresh farm produce, greenhouse-grown outputs,
-              poultry and piggery, ice production and the professional supply
-              of goods and services. We operate from Harare and Marondera,
-              serving private businesses, institutional clients and
-              government procurement partners.
+              Gorudo Investments (Private) Limited is a diversified Zimbabwean
+              enterprise <em>harvesting prosperity</em> across fresh farm
+              produce, greenhouse-grown outputs, poultry, piggery, ice
+              production and the professional supply of goods and services.
+              We operate from Harare and Marondera, serving private
+              businesses, institutional clients and government procurement
+              partners.
             </p>
             <p className="mt-4 text-lg leading-relaxed text-ink/70">
               Our model combines agricultural depth with disciplined business
@@ -62,7 +63,7 @@ export default function About() {
               <div className="relative col-span-4 row-span-4 overflow-hidden rounded-2xl shadow-soft">
                 <Image
                   src="/images/gorudo-1.jpeg"
-                  alt="Greenhouse operations"
+                  alt="Gorudo Investments greenhouse operations"
                   fill
                   sizes="(min-width:1024px) 40vw, 80vw"
                   className="object-cover"
@@ -70,8 +71,8 @@ export default function About() {
               </div>
               <div className="relative col-span-2 row-span-3 overflow-hidden rounded-2xl shadow-soft">
                 <Image
-                  src="/images/gorudo-7.jpeg"
-                  alt="Fresh produce"
+                  src="/images/gorudo-10.jpeg"
+                  alt="Fresh greenhouse tomatoes"
                   fill
                   sizes="(min-width:1024px) 20vw, 40vw"
                   className="object-cover"
@@ -79,8 +80,8 @@ export default function About() {
               </div>
               <div className="relative col-span-2 row-span-3 overflow-hidden rounded-2xl shadow-soft">
                 <Image
-                  src="/images/gorudo-4.jpeg"
-                  alt="Poultry operations"
+                  src="/images/gorudo-5.jpeg"
+                  alt="Gorudo piggery division"
                   fill
                   sizes="(min-width:1024px) 20vw, 40vw"
                   className="object-cover"
@@ -88,8 +89,8 @@ export default function About() {
               </div>
               <div className="relative col-span-3 row-span-2 overflow-hidden rounded-2xl shadow-soft">
                 <Image
-                  src="/images/gorudo-6.jpeg"
-                  alt="Agricultural detail"
+                  src="/images/gorudo-11.jpeg"
+                  alt="Fresh bell peppers"
                   fill
                   sizes="(min-width:1024px) 30vw, 50vw"
                   className="object-cover"

@@ -21,11 +21,11 @@ export const metadata = {
   metadataBase: new URL("https://gorudoinvestments.co.zw"),
   title: {
     default:
-      "Gorudo Investments | Premium Agribusiness & Supply Solutions in Zimbabwe",
+      "Gorudo Investments (Private) Limited | Harvesting Prosperity — Zimbabwe",
     template: "%s | Gorudo Investments",
   },
   description:
-    "Gorudo Investments is a Zimbabwean agribusiness and diversified supply company delivering fresh farm produce, greenhouse-grown excellence, poultry & piggery outputs, and reliable procurement solutions across Harare and Marondera.",
+    "Gorudo Investments (Private) Limited — Harvesting Prosperity. A Zimbabwean agribusiness and diversified supply company delivering fresh farm produce, greenhouse-grown excellence, Shashi Maputi, Shashi Ice, poultry & piggery outputs, and reliable procurement across Harare and Marondera.",
   keywords: [
     "Gorudo Investments",
     "Zimbabwe agribusiness",

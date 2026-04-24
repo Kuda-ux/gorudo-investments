@@ -32,8 +32,8 @@ export default function WhyChooseUs() {
           <div className="reveal relative lg:col-span-5">
             <div className="relative aspect-square w-full overflow-hidden rounded-[28px] shadow-ring">
               <Image
-                src="/images/gorudo-6.jpeg"
-                alt="Why choose Gorudo"
+                src="/images/gorudo-3.jpeg"
+                alt="Premium greenhouse pepper crop by Gorudo Investments"
                 fill
                 sizes="(min-width:1024px) 35vw, 90vw"
                 className="object-cover"

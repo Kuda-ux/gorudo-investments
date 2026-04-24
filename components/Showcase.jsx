@@ -12,14 +12,14 @@ const clips = [
   },
   {
     src: "/videos/gorudo-2.mp4",
-    poster: "/images/gorudo-4.jpeg",
-    label: "Poultry & Piggery",
-    title: "Livestock, managed professionally",
+    poster: "/images/gorudo-5.jpeg",
+    label: "Livestock",
+    title: "Poultry, piggery & more — professionally managed",
     body: "Disciplined husbandry and clean operations — dependable volumes for trade and institutional supply.",
   },
   {
     src: "/videos/gorudo-3.mp4",
-    poster: "/images/gorudo-1.jpeg",
+    poster: "/images/gorudo-2.jpeg",
     label: "Farm Operations",
     title: "A farm built for serious supply",
     body: "From field to dispatch, every step is organised to meet the expectations of modern buyers.",
