@@ -59,49 +59,73 @@ export default function About() {
           </div>
 
           <div className="reveal lg:col-span-7">
-            <div className="grid grid-cols-6 grid-rows-6 gap-3 sm:gap-4">
-              <div className="relative col-span-4 row-span-4 overflow-hidden rounded-2xl shadow-soft">
+            <div className="grid grid-cols-2 gap-4 sm:gap-5">
+              {/* Tall feature image */}
+              <div className="relative col-span-1 row-span-2 aspect-[3/5] overflow-hidden rounded-2xl shadow-soft">
                 <Image
-                  src="/images/gorudo-1.jpeg"
-                  alt="Gorudo Investments greenhouse operations"
+                  src="/images/gorudo-3.jpeg"
+                  alt="Greenhouse peppers — Gorudo Investments"
                   fill
-                  sizes="(min-width:1024px) 40vw, 80vw"
+                  sizes="(min-width:1024px) 30vw, 45vw"
                   className="object-cover"
                 />
+                <div className="absolute inset-0 bg-gradient-to-t from-brand-950/40 via-transparent to-transparent" />
+                <span className="absolute left-4 top-4 inline-flex items-center gap-1.5 rounded-full bg-white/95 px-3 py-1.5 text-[10px] font-semibold uppercase tracking-[0.16em] text-brand-700 shadow-soft">
+                  Greenhouse
+                </span>
               </div>
-              <div className="relative col-span-2 row-span-3 overflow-hidden rounded-2xl shadow-soft">
+
+              {/* Top-right: tomatoes */}
+              <div className="relative col-span-1 aspect-[4/3] overflow-hidden rounded-2xl shadow-soft">
                 <Image
                   src="/images/gorudo-10.jpeg"
                   alt="Fresh greenhouse tomatoes"
                   fill
-                  sizes="(min-width:1024px) 20vw, 40vw"
+                  sizes="(min-width:1024px) 30vw, 45vw"
                   className="object-cover"
                 />
+                <span className="absolute left-4 top-4 inline-flex items-center gap-1.5 rounded-full bg-white/95 px-3 py-1.5 text-[10px] font-semibold uppercase tracking-[0.16em] text-brand-700 shadow-soft">
+                  Fresh Produce
+                </span>
               </div>
-              <div className="relative col-span-2 row-span-3 overflow-hidden rounded-2xl shadow-soft">
+
+              {/* Middle-right: piggery */}
+              <div className="relative col-span-1 aspect-[4/3] overflow-hidden rounded-2xl shadow-soft">
                 <Image
                   src="/images/gorudo-5.jpeg"
                   alt="Gorudo piggery division"
                   fill
-                  sizes="(min-width:1024px) 20vw, 40vw"
+                  sizes="(min-width:1024px) 30vw, 45vw"
                   className="object-cover"
                 />
+                <span className="absolute left-4 top-4 inline-flex items-center gap-1.5 rounded-full bg-white/95 px-3 py-1.5 text-[10px] font-semibold uppercase tracking-[0.16em] text-brand-700 shadow-soft">
+                  Piggery
+                </span>
               </div>
-              <div className="relative col-span-3 row-span-2 overflow-hidden rounded-2xl shadow-soft">
+
+              {/* Bottom-left: peppers */}
+              <div className="relative col-span-1 aspect-[4/3] overflow-hidden rounded-2xl shadow-soft">
                 <Image
                   src="/images/gorudo-11.jpeg"
                   alt="Fresh bell peppers"
                   fill
-                  sizes="(min-width:1024px) 30vw, 50vw"
+                  sizes="(min-width:1024px) 30vw, 45vw"
                   className="object-cover"
                 />
+                <span className="absolute left-4 top-4 inline-flex items-center gap-1.5 rounded-full bg-white/95 px-3 py-1.5 text-[10px] font-semibold uppercase tracking-[0.16em] text-brand-700 shadow-soft">
+                  Sweet Peppers
+                </span>
               </div>
-              <div className="relative col-span-3 row-span-2 overflow-hidden rounded-2xl bg-brand-700 p-5 text-white shadow-ring">
-                <p className="font-display text-2xl leading-tight">
+
+              {/* Bottom-right: quote card */}
+              <div className="relative col-span-1 flex aspect-[4/3] flex-col justify-between overflow-hidden rounded-2xl bg-gradient-to-br from-brand-700 via-brand-800 to-brand-950 p-5 text-white shadow-ring sm:p-6">
+                <div className="pointer-events-none absolute -right-8 -top-8 h-32 w-32 rounded-full bg-lime-400/30 blur-2xl" />
+                <div className="pointer-events-none absolute -bottom-10 -left-10 h-32 w-32 rounded-full bg-sun-400/25 blur-2xl" />
+                <p className="relative font-display text-base leading-snug sm:text-lg">
                   "Organic, fresh, greenhouse-grown — delivered with
                   professional discipline."
                 </p>
-                <p className="mt-2 text-xs uppercase tracking-[0.2em] text-brand-100">
+                <p className="relative mt-3 text-[10px] uppercase tracking-[0.22em] text-brand-100">
                   — Gorudo Investments
                 </p>
               </div>
