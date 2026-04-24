@@ -31,7 +31,7 @@ export default function About() {
             </span>
             <h2 className="h-display mt-5 text-4xl sm:text-5xl">
               A Zimbabwean company built for
-              <span className="italic text-brand-700"> serious growth.</span>
+              <span className="italic"> <span className="text-gradient">serious growth.</span></span>
             </h2>
             <p className="mt-6 text-lg leading-relaxed text-ink/70">
               Gorudo Investments is a diversified Zimbabwean enterprise with

@@ -62,8 +62,8 @@ export default function Contact() {
             </span>
             <h2 className="h-display mt-5 text-4xl sm:text-5xl">
               Let's talk supply,
-              <span className="block italic text-brand-700">
-                produce and partnership.
+              <span className="block italic">
+                <span className="text-gradient">produce and partnership.</span>
               </span>
             </h2>
             <p className="mt-6 text-lg leading-relaxed text-ink/70">

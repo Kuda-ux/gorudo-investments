@@ -6,12 +6,14 @@ import Procurement from "@/components/Procurement";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import CTASection from "@/components/CTASection";
 import Contact from "@/components/Contact";
+import Showcase from "@/components/Showcase";
 
 export default function HomePage() {
   return (
     <>
       <Hero />
       <About />
+      <Showcase />
       <Divisions />
       <Products />
       <WhyChooseUs />

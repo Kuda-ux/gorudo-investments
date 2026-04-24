@@ -43,8 +43,8 @@ export default function Divisions() {
             </span>
             <h2 className="h-display mt-5 text-4xl sm:text-5xl">
               Three business units.
-              <span className="block italic text-brand-700">
-                One standard of excellence.
+              <span className="block italic">
+                <span className="text-gradient">One standard of excellence.</span>
               </span>
             </h2>
           </div>

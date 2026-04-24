@@ -1,20 +1,25 @@
-import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
 
 export default function CTASection() {
   return (
     <section className="relative py-20 sm:py-28">
       <div className="container-xl container-px">
-        <div className="relative overflow-hidden rounded-[28px] bg-brand-700 p-10 sm:p-14 lg:p-20">
-          <div className="pointer-events-none absolute inset-0 -z-0 opacity-30">
-            <Image
-              src="/images/gorudo-1.jpeg"
-              alt=""
-              fill
-              sizes="100vw"
-              className="object-cover"
-            />
-            <div className="absolute inset-0 bg-gradient-to-r from-brand-900 via-brand-800/80 to-transparent" />
+        <div className="relative overflow-hidden rounded-[28px] bg-brand-900 p-10 sm:p-14 lg:p-20">
+          <div className="pointer-events-none absolute inset-0 -z-0">
+            <video
+              autoPlay
+              muted
+              loop
+              playsInline
+              preload="metadata"
+              poster="/images/gorudo-1.jpeg"
+              className="h-full w-full object-cover opacity-40"
+            >
+              <source src="/videos/gorudo-3.mp4" type="video/mp4" />
+            </video>
+            <div className="absolute inset-0 bg-gradient-to-r from-brand-950 via-brand-900/85 to-brand-900/40" />
+            <div className="absolute -right-10 -top-10 h-56 w-56 rounded-full bg-sun-400/30 blur-3xl" />
+            <div className="absolute -bottom-10 left-1/3 h-56 w-56 rounded-full bg-lime-400/30 blur-3xl" />
           </div>
           <div className="relative grid gap-8 lg:grid-cols-12 lg:items-center">
             <div className="lg:col-span-8">

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { CheckCircle2, FileCheck2, Handshake, ShieldCheck, Timer } from "lucide-react";
 
 const capabilities = [
@@ -31,14 +30,20 @@ export default function Procurement() {
       className="relative overflow-hidden bg-brand-950 py-24 text-white sm:py-32"
     >
       <div className="pointer-events-none absolute inset-0 -z-0">
-        <Image
-          src="/images/gorudo-2.jpeg"
-          alt=""
-          fill
-          sizes="100vw"
-          className="object-cover opacity-20"
-        />
-        <div className="absolute inset-0 bg-gradient-to-br from-brand-950 via-brand-900/90 to-brand-950" />
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="metadata"
+          poster="/images/gorudo-2.jpeg"
+          className="h-full w-full object-cover opacity-25"
+        >
+          <source src="/videos/gorudo-2.mp4" type="video/mp4" />
+        </video>
+        <div className="absolute inset-0 bg-gradient-to-br from-brand-950 via-brand-900/92 to-brand-950" />
+        <div className="absolute left-1/4 top-1/3 h-80 w-80 rounded-full bg-lime-500/10 blur-3xl" />
+        <div className="absolute right-10 top-1/2 h-72 w-72 rounded-full bg-sun-400/10 blur-3xl" />
       </div>
 
       <div className="container-xl container-px relative">

@@ -46,8 +46,8 @@ export default function Products() {
             </span>
             <h2 className="h-display mt-5 text-4xl sm:text-5xl">
               From greenhouse to gate —
-              <span className="block italic text-brand-700">
-                premium supply, end to end.
+              <span className="block italic">
+                <span className="text-gradient">premium supply, end to end.</span>
               </span>
             </h2>
           </div>

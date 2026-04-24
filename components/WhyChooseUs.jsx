@@ -40,7 +40,7 @@ export default function WhyChooseUs() {
               />
             </div>
             <div className="absolute -bottom-6 -right-4 w-60 rounded-2xl bg-white p-5 shadow-ring">
-              <p className="font-display text-3xl font-semibold text-brand-700">
+              <p className="font-display text-3xl font-semibold text-gradient">
                 100%
               </p>
               <p className="mt-1 text-xs uppercase tracking-[0.18em] text-ink/60">
@@ -56,8 +56,8 @@ export default function WhyChooseUs() {
             </span>
             <h2 className="h-display mt-5 text-4xl sm:text-5xl">
               Built on discipline.
-              <span className="block italic text-brand-700">
-                Trusted for delivery.
+              <span className="block italic">
+                <span className="text-gradient">Trusted for delivery.</span>
               </span>
             </h2>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-ink/70">
