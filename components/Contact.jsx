@@ -94,9 +94,12 @@ export default function Contact() {
                   <Phone className="h-5 w-5" />
                 </span>
                 <div>
-                  <p className="font-display text-base font-semibold">Phone</p>
+                  <p className="font-display text-base font-semibold">Phone &amp; WhatsApp</p>
                   <p className="text-sm text-ink/70">
                     <a href="tel:+263242127233" className="hover:text-brand-700">+263 242 127233</a>
+                  </p>
+                  <p className="text-sm text-ink/70">
+                    <a href="https://wa.me/263718668688" target="_blank" rel="noopener noreferrer" className="hover:text-brand-700">WhatsApp: +263 71 866 8688</a>
                   </p>
                 </div>
               </li>

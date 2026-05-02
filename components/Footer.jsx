@@ -42,6 +42,10 @@ export default function Footer() {
                 <a href="tel:+263242127233" className="hover:text-white">+263 242 127233</a>
               </p>
               <p className="flex items-center gap-2">
+                <Phone className="h-4 w-4 text-brand-300" />
+                <a href="https://wa.me/263718668688" target="_blank" rel="noopener noreferrer" className="hover:text-white">WhatsApp: +263 71 866 8688</a>
+              </p>
+              <p className="flex items-center gap-2">
                 <Mail className="h-4 w-4 text-brand-300" />
                 info@gorudoinvestments.co.zw
               </p>
