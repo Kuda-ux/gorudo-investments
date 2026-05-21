@@ -62,18 +62,18 @@ export default function Products() {
           <div className="reveal relative lg:col-span-5">
             <div className="relative aspect-[4/5] overflow-hidden rounded-3xl shadow-ring">
               <Image
-                src="/images/gorudo-10.jpeg"
-                alt="Greenhouse-grown tomatoes from Gorudo Investments"
+                src="/images/ni-01.jpeg"
+                alt="Fresh harvested bell peppers from Gorudo Investments"
                 fill
                 sizes="(min-width:1024px) 35vw, 90vw"
                 className="object-cover"
               />
               <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-brand-950/80 via-brand-950/30 to-transparent p-6">
                 <p className="text-[11px] uppercase tracking-[0.2em] text-brand-100">
-                  Fresh · Organic · Premium
+                  Harvested · Fresh · Premium
                 </p>
                 <p className="font-display text-2xl text-white">
-                  Greenhouse-grown quality, every harvest.
+                  Vibrant produce, straight from our greenhouse.
                 </p>
               </div>
             </div>

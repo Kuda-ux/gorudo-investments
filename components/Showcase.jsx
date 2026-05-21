@@ -5,23 +5,23 @@ import { Play, Pause, Sparkles } from "lucide-react";
 const clips = [
   {
     src: "/videos/gorudo-1.mp4",
-    poster: "/images/gorudo-3.jpeg",
+    poster: "/images/ni-17.jpeg",
     label: "Greenhouse",
     title: "Organic, fresh from the greenhouse",
     body: "Climate-managed cultivation delivering consistent, premium produce — harvested at peak quality.",
   },
   {
     src: "/videos/gorudo-2.mp4",
-    poster: "/images/gorudo-5.jpeg",
-    label: "Livestock",
-    title: "Poultry, piggery & more — professionally managed",
+    poster: "/images/ni-09.jpeg",
+    label: "Field Crops",
+    title: "Cabbage, kale & leafy veg — greenhouse grown",
     body: "Disciplined husbandry and clean operations — dependable volumes for trade and institutional supply.",
   },
   {
     src: "/videos/gorudo-3.mp4",
-    poster: "/images/gorudo-2.jpeg",
-    label: "Farm Operations",
-    title: "A farm built for serious supply",
+    poster: "/images/ni-08.jpeg",
+    label: "Cucumber House",
+    title: "Cucumbers at scale — commercial greenhouse production",
     body: "From field to dispatch, every step is organised to meet the expectations of modern buyers.",
   },
 ];

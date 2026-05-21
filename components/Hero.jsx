@@ -92,7 +92,7 @@ export default function Hero() {
                   loop
                   playsInline
                   preload="metadata"
-                  poster="/images/gorudo-3.jpeg"
+                  poster="/images/ni-11.jpeg"
                   className="h-full w-full object-cover"
                 >
                   <source src="/videos/gorudo-1.mp4" type="video/mp4" />

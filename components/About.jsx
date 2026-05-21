@@ -63,23 +63,23 @@ export default function About() {
               {/* Tall feature image */}
               <div className="relative col-span-1 row-span-2 aspect-[3/5] overflow-hidden rounded-2xl shadow-soft">
                 <Image
-                  src="/images/gorudo-3.jpeg"
-                  alt="Greenhouse peppers — Gorudo Investments"
+                  src="/images/ni-03.jpeg"
+                  alt="Gorudo Investments team tending greenhouse crops"
                   fill
                   sizes="(min-width:1024px) 30vw, 45vw"
                   className="object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-brand-950/40 via-transparent to-transparent" />
                 <span className="absolute left-4 top-4 inline-flex items-center gap-1.5 rounded-full bg-white/95 px-3 py-1.5 text-[10px] font-semibold uppercase tracking-[0.16em] text-brand-700 shadow-soft">
-                  Greenhouse
+                  Greenhouse Team
                 </span>
               </div>
 
               {/* Top-right: tomatoes */}
               <div className="relative col-span-1 aspect-[4/3] overflow-hidden rounded-2xl shadow-soft">
                 <Image
-                  src="/images/gorudo-10.jpeg"
-                  alt="Fresh greenhouse tomatoes"
+                  src="/images/ni-02.jpeg"
+                  alt="Tomatoes on vine — Gorudo farm"
                   fill
                   sizes="(min-width:1024px) 30vw, 45vw"
                   className="object-cover"
@@ -89,31 +89,31 @@ export default function About() {
                 </span>
               </div>
 
-              {/* Middle-right: piggery */}
+              {/* Middle-right: greenhouse infra */}
               <div className="relative col-span-1 aspect-[4/3] overflow-hidden rounded-2xl shadow-soft">
                 <Image
-                  src="/images/gorudo-5.jpeg"
-                  alt="Gorudo piggery division"
+                  src="/images/ni-06.jpeg"
+                  alt="Gorudo greenhouse infrastructure with drip irrigation"
                   fill
                   sizes="(min-width:1024px) 30vw, 45vw"
                   className="object-cover"
                 />
                 <span className="absolute left-4 top-4 inline-flex items-center gap-1.5 rounded-full bg-white/95 px-3 py-1.5 text-[10px] font-semibold uppercase tracking-[0.16em] text-brand-700 shadow-soft">
-                  Piggery
+                  Infrastructure
                 </span>
               </div>
 
               {/* Bottom-left: peppers */}
               <div className="relative col-span-1 aspect-[4/3] overflow-hidden rounded-2xl shadow-soft">
                 <Image
-                  src="/images/gorudo-11.jpeg"
-                  alt="Fresh bell peppers"
+                  src="/images/ni-04.jpeg"
+                  alt="Fresh bell peppers on the vine — Gorudo horticulture"
                   fill
                   sizes="(min-width:1024px) 30vw, 45vw"
                   className="object-cover"
                 />
                 <span className="absolute left-4 top-4 inline-flex items-center gap-1.5 rounded-full bg-white/95 px-3 py-1.5 text-[10px] font-semibold uppercase tracking-[0.16em] text-brand-700 shadow-soft">
-                  Sweet Peppers
+                  Bell Peppers
                 </span>
               </div>
 
