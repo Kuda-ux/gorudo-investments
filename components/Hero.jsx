@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowUpRight, Leaf, ShieldCheck, Sprout, PlayCircle, Sparkles } from "lucide-react";
+import { ArrowUpRight, Leaf, ShieldCheck, Sprout, Sparkles } from "lucide-react";
 
 const MARQUEE_TAGS = [
   "Fresh Farm Produce",
@@ -86,17 +86,14 @@ export default function Hero() {
               <div className="absolute -inset-3 rounded-[32px] bg-gradient-to-br from-brand-500 via-lime-400 to-sun-400 opacity-70 blur-2xl" />
               <div className="absolute inset-0 rounded-[28px] bg-gradient-to-br from-brand-700 via-brand-800 to-brand-950 shadow-ring" />
               <div className="absolute inset-2 overflow-hidden rounded-[24px]">
-                <video
-                  autoPlay
-                  muted
-                  loop
-                  playsInline
-                  preload="metadata"
-                  poster="/images/ni-11.jpeg"
-                  className="h-full w-full object-cover"
-                >
-                  <source src="/videos/gorudo-1.mp4" type="video/mp4" />
-                </video>
+                <Image
+                  src="/images/ni-08.jpeg"
+                  alt="Gorudo Investments premium cucumber greenhouse"
+                  fill
+                  priority
+                  sizes="(min-width:1024px) 40vw, 90vw"
+                  className="object-cover"
+                />
                 <div className="absolute inset-0 bg-gradient-to-t from-brand-950/55 via-transparent to-transparent" />
                 {/* Sparkle corner */}
                 <div className="absolute right-4 top-4 inline-flex items-center gap-1.5 rounded-full bg-white/90 px-3 py-1.5 text-[10px] font-semibold uppercase tracking-[0.18em] text-brand-800 shadow-soft">

@@ -99,6 +99,9 @@ export default function Contact() {
                     <a href="tel:+263242127233" className="hover:text-brand-700">+263 242 127233</a>
                   </p>
                   <p className="text-sm text-ink/70">
+                    <a href="tel:+263773733504" className="hover:text-brand-700">+263 77 373 3504</a>
+                  </p>
+                  <p className="text-sm text-ink/70">
                     <a href="https://wa.me/263718668688" target="_blank" rel="noopener noreferrer" className="hover:text-brand-700">WhatsApp: +263 71 866 8688</a>
                   </p>
                 </div>
