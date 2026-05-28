@@ -202,10 +202,11 @@ export default function RootLayout({ children }) {
       </head>
       <body className="font-sans">
         <Reveal />
-        <Navbar />
-        <main>{children}</main>
-        <Footer />
-        <Chatbot />
+        {/* MAINTENANCE MODE — restore Navbar, Footer, Chatbot when site goes live */}
+        {/* <Navbar /> */}
+        {children}
+        {/* <Footer /> */}
+        {/* <Chatbot /> */}
       </body>
     </html>
   );
